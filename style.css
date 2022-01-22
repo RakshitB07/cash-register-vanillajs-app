@@ -5,3 +5,9 @@ body {
     font-weight: 300;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}

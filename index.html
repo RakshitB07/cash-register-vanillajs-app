@@ -14,9 +14,29 @@
         <h1 class="heading">Cash Register</h1>
         <p class="description">Enter the bill amount and cash given by the customer</p>
         <label for="bill-amount">Bill Amount:</label>
-        <input id="bill-amount" type="text" />
+        <input id="bill-amount" type="number" />
         <label for="cash-given"> Cash Given:</label>
-        <input id="cash-given" />
+        <input id="cash-given" type="number" />
+        <button id="initialize-btn">Initialize</button>
+        <p id="error-msg"></p>
+        <table class="change-table"></table>
+        <caption>
+            Return Change
+        </caption>
+        <tr>
+            <th>No. of notes</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Note</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
     </div>
 </body>
 <script src="./app.js"></script>
