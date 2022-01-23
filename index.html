@@ -13,10 +13,14 @@
     <div class="container">
         <h1 class="heading">Cash Register</h1>
         <p class="description">Enter the bill amount and cash given by the customer</p>
-        <label for="bill-amount">Bill Amount:</label>
-        <input id="bill-amount" type="number" />
-        <label for="cash-given"> Cash Given:</label>
-        <input id="cash-given" type="number" />
+        <div class="bill-input-area">
+            <label for="bill-amount">Bill Amount:</label>
+            <input id="bill-amount" type="number" />
+        </div>
+        <div class="cash-given-area">
+            <label for="cash-given"> Cash Given:</label>
+            <input id="cash-given" type="number" />
+        </div>
         <button id="initialize-btn">Initialize</button>
         <p id="error-msg"></p>
         <table class="change-table">

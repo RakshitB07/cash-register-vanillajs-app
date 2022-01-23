@@ -4,10 +4,79 @@ body {
     font-family: 'Trispace', sans-serif;
     font-weight: 300;
     text-align: center;
+    background-color: #EEEEEE;
+    color: #CFFFDC;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 70vw;
+    align-items: center;
+    margin: auto;
+}
+
+th,
+td {
+    border: 0.1rem solid #041562;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #1A1A40;
+    color: #CFFFDC;
+}
+
+caption {
+    padding: 0.3rem;
+    color: #CFFFDC;
+    background-color: #1A1A40;
+    border-radius: 1rem;
+}
+
+.heading {
+    background-color: #1A1A40;
+    width: auto;
+    height: auto;
+    padding: 1.2rem 1.2rem;
+    border-radius: 1rem;
+}
+
+.description {
+    background-color: #1A1A40;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    color: #CFFFDC;
+}
+
+#initialize-btn {
+    padding: 0.3rem;
+    margin: 0.5rem;
+    background-color: #172774;
+    color: #77D970;
+    /* border: 0.15rem solid cadetblue; */
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+
+label {
+    background-color: #1A1A40;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    margin: 1rem;
+    flex-wrap: nowrap;
+}
+
+#error-msg {
+    background-color: #5800FF;
+    color: #93FFD8;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.bill-input-area {
+    margin: 1rem;
+}
+
+.cash-given-area {
+    margin: 1rem;
 }
