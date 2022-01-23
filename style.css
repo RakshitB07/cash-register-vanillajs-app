@@ -80,3 +80,14 @@ label {
 .cash-given-area {
     margin: 1rem;
 }
+
+footer {
+    background-color: #77ACF1;
+    color: #04009A;
+    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
