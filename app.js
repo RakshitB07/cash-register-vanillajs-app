@@ -13,9 +13,9 @@ const noOfNotes = document.querySelectorAll(".no-Of-Notes")
 
 initializeBtn.addEventListener("click", function validateBillAndCashAmount() {
     hideMsg();
-    if (billAmount.value > 0) {
-        if (cashGiven.value >= billAmount.value) {
-            const amountToReturn = cashGiven.value - billAmount.value;
+    if (Number(billAmount.value) > 0) {
+        if (Number(cashGiven.value) >= Number(billAmount.value)) {
+            const amountToReturn = Number(cashGiven.value) - Number(billAmount.value);
             calculateChange(amountToReturn);
 
         } else {
